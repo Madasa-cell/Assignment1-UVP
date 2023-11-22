@@ -21,12 +21,12 @@ public class Guesser{
    * and review the section about constructors.
    *
    */
+
+  // Write the constructor below this line.
   public Guesser(int low, int high){
   this.low = low;
   this.high = high;
   }
-  // Write the constructor below this line.
-
 
   /*
    * Task 2. Complete the start() method, so that
@@ -35,7 +35,9 @@ public class Guesser{
    */
   public void start(){
     // call the rules method here
+    rules();
     // call the doGuesses() method here
+    doGuesses();
   }
 
   private void rules(){

@@ -21,7 +21,10 @@ public class Guesser{
    * and review the section about constructors.
    *
    */
-  
+  public Guesser(int low, int high){
+  this.low = low;
+  this.high = high;
+  }
   // Write the constructor below this line.
 
 

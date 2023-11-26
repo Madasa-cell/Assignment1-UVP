@@ -1,0 +1,20 @@
+
+Q: När använder man Add respektive Commit?
+A: Add används när du vill lägga till förändringar i din arbetysyta till din staging area där du förbereder dem inför att bli
+   commitade.
+   Commit används när du vill spara alla dina förändringar i staging area i ditt git repositorie.
+
+Q: Vad är Pull respektive Push?
+A: Med Push så laddar vi upp våra commitade förändringar till vårt remote repositoriet.
+   Med Pull så laddar vi ner de senaste commitade förändringarna i från vårt remote repositorie.
+
+Q: När använder Log respektive Status
+A: Vi använder Log för att visa en detaljerad historia över allt som har blivit commitat till repositoriet.
+   Vi använder Status för att om det finns någon förändring i arbetsytan som inte har blivit addat ännu eller om det finns
+   något i staging area som inte ännu har blivit commitat.
+
+Q: Vad är en Git Branch och varför är de viktiga?
+A: De är viktiga eftersom en branch representerar en specifik version av en applikation. Med branches så kan vi till exempel
+   göra en kod ändring från en version (v.1.2) till en ny version (v.2.0). Branches kan användas för att endast arbeta på en
+   del av projektet typ att förbättra en voice-over funktion eller fixa buggar och sedan när man är klar så kan man merga
+   branchen till master.
